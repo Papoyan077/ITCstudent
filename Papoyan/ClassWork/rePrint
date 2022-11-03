@@ -1,0 +1,14 @@
+#!/bin/bash
+
+tiv=0
+count=$1
+recursion(){
+if [[ $count -ne 0 ]]
+then 
+echo $count
+count=$(( $count-1 ))
+recursion
+fi
+}
+
+recursion

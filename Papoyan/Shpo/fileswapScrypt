@@ -1,0 +1,22 @@
+#!/bin/bash
+
+read line
+
+
+head -n $((line-1)) file1 > file3
+head -n $line file2 | tail -n 1 >> file3
+tail -n $line file1 >> file3
+
+
+tmp=`head -n $line file1 | tail -n 1`
+
+
+cat file3 > file1
+
+head -n $((line-1)) file2 > file3
+echo $tmp >> file3
+tail -n $line file2 >> file3
+
+cat file3 > file2
+
+rm file3

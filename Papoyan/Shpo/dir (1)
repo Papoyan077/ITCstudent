@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read path
+read word
+
+find $path -iname *"$word"* > /Result/
+$zip -r ziped.zip 

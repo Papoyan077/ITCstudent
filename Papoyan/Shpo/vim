@@ -1,0 +1,136 @@
+h j k l
+
+:w
+:q
+:wq
+:q!
+:x
+
+G -  bottom
+gg - top
+
+w
+b
+e
+$
+0
+
+u
+ctrl r
+U
+dd
+yy
+p
+x
+
+N<command><command>...
+examples
+3dd
+3dw
+3yw
+3yx
+y$
+
+<ESC> - to normal mode
+
+INSERT MODE
+i, INSERT
+a
+o
+O
+I
+A
+
+r
+R
+
+10i -> hello -> esc
+
+VISUAL MODE
+v
+V
+ctrl v
+U - upper
+u - lower
+
+RECORD MODE
+q -> <name> -> <commands> -> q
+N@<name>
+
+
+ctrl + a -> increase number 1 -> 2-> 3
+
+1.
+2.
+3.
+4.
+
+Normal mode -> q -> a -> yy -> p -> ctrl a -> q
+
+10@a
+
+COMMAND MODE
+
+ESC -> :
+:w
+:set number
+
+shell comands
+esc -> :!<command>
+example
+:!ls
+:!pwd
+
+SEARCH AND REPLACE
+esc -> :
+/hello
+?hello
+*
+n
+N
+
+:%s/old/new/flags
+g - global
+i - ignore case
+c - case
+
+:%s/hello/bye/gi
+:%s/hello/bye/g
+:10,15 s/hello/bye/g
+
+
+:tabn(ext)
+:tabp(rev)
+:tabnew file
+:tabc(lose)
+Ngt
+
+:split - horizontal
+vsplit - vertical
+ctrl w + [hjkl]
+
+:close
+:only
+
+HELLO
+
+hello
+hello hello
+ apd asd as das d
+hellohellohellohellohellohellohellohello wrold as das d
+
+#aasda da d asd as d asd asd as das d
+#aasda da d asd as d asd asd as das d
+#aasda da d asd as d asd asd as das d
+#aasda da d asd as d asd asd as das d
+#aasda da d asd as d asd asd as das d
+aasda da d asd as d asd asd as das d
+sad as das das d asd as dsa das d sad 
+
+as
+das
+d
+asd
+as
+das
+
